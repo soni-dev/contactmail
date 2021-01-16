@@ -1,5 +1,5 @@
 {
-    "name": "package/contactemail",
+    "name": "sonicontactf/contactemail",
     "description": "This package use to send email and save data in database",
     "license": "MIT",
     "authors": [
