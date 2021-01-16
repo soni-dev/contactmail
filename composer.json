@@ -1,0 +1,25 @@
+{
+    "name": "package/contactemail",
+    "description": "This package use to send email and save data in database",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "soni maurya",
+            "email": "sonimaurya1224@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Soni\\ContactEmail\\": "sonicontactf/contactemail/src/"
+        }
+    },
+      "extra": {
+        "laravel": {
+            "providers": [
+                "Soni\\ContactEmail\\SoniContactServiceProvider"
+            ]
+        }
+    }
+}
